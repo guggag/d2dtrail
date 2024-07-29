@@ -62,6 +62,7 @@ public:
 	void updaterect();
 	void updaterc();
 
+	//The complete rendering process 
 	void render_exp();
 
 	RECT getrrc() { return rrc; };

@@ -118,7 +118,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
     std::thread([]() 
         {
             for (auto i=0;;++i) {
-                Sleep(500);
+                Sleep(800);
                 std::cout << "render " << i << std::endl;
 ;               dxrsrc->render_exp();
             }

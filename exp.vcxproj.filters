@@ -30,9 +30,6 @@
     <ClInclude Include="d2dtrial.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="release.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="dxdef.h">
       <Filter>头文件</Filter>
     </ClInclude>

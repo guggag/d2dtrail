@@ -255,8 +255,6 @@ void dxresources::render_exp()
 {
     d2ddc->BeginDraw();
     d2ddc->Clear(D2D1::ColorF(0x1e4a56));
-
-    d2ddc->Clear(D2D1::ColorF(0x1e4a56));
     ID2D1RectangleGeometry* fg;
     d2dfct->CreateRectangleGeometry(D2D1::RectF(300, 100, 350, 150), &fg);
     d2ddc->FillGeometry(fg, scbrush);
@@ -281,7 +279,9 @@ void dxresources::render_exp()
         d2ddc->EndDraw()
     );
 
-    sdx::dxerr(swapchain->Present1(1, 0, &dxgiscp));
+    sdx::dxerr(
+        swapchain->Present1(1, 0, &dxgiscp)
+    );
 
 }
 
